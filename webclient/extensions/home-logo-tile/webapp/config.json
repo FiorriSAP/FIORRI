@@ -1,0 +1,8 @@
+{
+  "companyName": "FIORRI",
+  "logo": "img/logo.png",
+  "tagline": "ברוכים הבאים למערכת SAP Business One",
+  "links": [
+    { "text": "אתר החברה", "href": "https://www.fiorri.org" }
+  ]
+}

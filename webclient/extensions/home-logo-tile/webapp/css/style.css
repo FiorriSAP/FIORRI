@@ -1,0 +1,19 @@
+.fiorriHome .sapMPageEnableScrolling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiorriHomeBox {
+    min-height: 80vh;
+    text-align: center;
+}
+
+.fiorriLogo {
+    max-width: min(520px, 90vw);
+    max-height: 160px;
+}
+
+.fiorriDate {
+    opacity: 0.7;
+}

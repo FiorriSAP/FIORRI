@@ -3,6 +3,7 @@
 This repository contains planning assets and automation scripts for deploying an advanced digital document archive on Windows 10.
 
 ## Contents
+- `webclient/` – SAP Business One Web Client upgrade kit (key-user setup guide, KPI queries, save validations, company logo tile). See [webclient/README.md](webclient/README.md).
 - `docs/digital_archive_plan.md` – end-to-end implementation roadmap, governance, and operational checklist.
 - `docs/retention_policy_template.md` – template for defining retention schedules and approvals.
 - `scripts/setup_digital_archive.ps1` – PowerShell script that builds the folder taxonomy, assigns sample permissions, and optionally processes an intake inbox into the archive.
