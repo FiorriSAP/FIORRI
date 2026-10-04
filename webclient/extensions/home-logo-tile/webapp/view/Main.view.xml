@@ -7,8 +7,7 @@
             <Image src="{path: 'config>/logo', formatter: '.resolveAsset'}"
                    alt="{config>/companyName}"
                    class="fiorriLogo"/>
-            <Title text="{config>/companyName}" level="H1" class="sapUiMediumMarginTop"/>
-            <Text text="{config>/tagline}" class="sapUiSmallMarginTop"/>
+            <Text text="{config>/tagline}" class="sapUiMediumMarginTop"/>
             <Text text="{path: 'config>/companyName', formatter: '.today'}" class="sapUiSmallMarginTop fiorriDate"/>
             <HBox items="{config>/links}" justifyContent="Center" wrap="Wrap" class="sapUiMediumMarginTop">
                 <Link text="{config>text}" href="{config>href}" target="_blank" class="sapUiSmallMarginEnd"/>

@@ -10,8 +10,8 @@
 }
 
 .fiorriLogo {
-    max-width: 360px;
-    max-height: 200px;
+    max-width: min(520px, 90vw);
+    max-height: 160px;
 }
 
 .fiorriDate {

@@ -5,7 +5,7 @@
 
 ## התאמה
 
-1. מחליפים את `webapp/img/logo.svg` בלוגו האמיתי (SVG או PNG). אם שם הקובץ משתנה, מעדכנים את `logo` ב-`webapp/config.json`.
+1. הלוגו נמצא ב-`webapp/img/logo.png`. להחלפה מחליפים את הקובץ (SVG או PNG). אם שם הקובץ משתנה, מעדכנים את `logo` ב-`webapp/config.json`.
 2. ב-`webapp/config.json` מעדכנים את שם החברה, משפט הפתיחה והקישורים.
 
 ## תצוגה מקדימה מקומית
