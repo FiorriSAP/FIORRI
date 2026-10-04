@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="fiorri.homelogo.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page showHeader="false" class="fiorriHome">
+        <VBox alignItems="Center" justifyContent="Center" class="fiorriHomeBox">
+            <Image src="{path: 'config>/logo', formatter: '.resolveAsset'}"
+                   alt="{config>/companyName}"
+                   class="fiorriLogo"/>
+            <Title text="{config>/companyName}" level="H1" class="sapUiMediumMarginTop"/>
+            <Text text="{config>/tagline}" class="sapUiSmallMarginTop"/>
+            <Text text="{path: 'config>/companyName', formatter: '.today'}" class="sapUiSmallMarginTop fiorriDate"/>
+            <HBox items="{config>/links}" justifyContent="Center" wrap="Wrap" class="sapUiMediumMarginTop">
+                <Link text="{config>text}" href="{config>href}" target="_blank" class="sapUiSmallMarginEnd"/>
+            </HBox>
+        </VBox>
+    </Page>
+</mvc:View>

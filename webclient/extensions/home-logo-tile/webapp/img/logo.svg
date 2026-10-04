@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120">
+  <!-- Placeholder: replace this file with the real company logo (SVG or PNG; update config.json if the name changes). -->
+  <rect x="2" y="2" width="356" height="116" rx="12" fill="none" stroke="#0a6ed1" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="180" y="72" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#0a6ed1" text-anchor="middle">FIORRI</text>
+</svg>
